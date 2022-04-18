@@ -1,0 +1,9 @@
+<nav>
+
+    <ul class="navigator">
+      <img src="assets/images/LOGO/logo.png" alt="Falseflix logo">
+      <li class="navigator__item" *ngFor="let element of navigatorLinks">
+        <a href="{{ element.link }}">{{ element.name }}</a>
+      </li>
+    </ul>
+  </nav>
